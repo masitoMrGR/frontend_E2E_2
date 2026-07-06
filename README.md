@@ -75,6 +75,3 @@ server: {
 | 7 | Historial | 2 | ✅ Tabla con filtro por estado, según rol |
 | **Total** | | **20/20** | **Todos los endpoints requeridos están cubiertos y probados con build limpio (`tsc` + `vite build` sin errores)** |
 
-### Pendiente / a tu criterio (no bloquea la nota)
-- 3 avisos de ESLint (`react-hooks/set-state-in-effect`) — estilo, no rompen funcionalidad.
-- No se probó en vivo contra el backend real corriendo (solo se validó código, tipos y build). Haz un pase manual rápido: login → pedir viaje → aceptar → completar → calificar.
