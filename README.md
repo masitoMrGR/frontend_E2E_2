@@ -61,17 +61,3 @@ server: {
 ```
 
 ---
-
-## Cumplimiento del README del backend (tabla de calificación, 20 pts)
-
-| # | Pantalla | Pts | ¿Cumple? |
-|---|---|---|---|
-| 1 | Login / Registro | 3 | ✅ Guarda JWT, lo adjunta en cada request, redirige según rol |
-| 2 | Dashboard pasajero | 3 | ✅ Muestra nombre, botón "Pedir viaje", lista de `GET /trips` con badge de estado |
-| 3 | Solicitar viaje | 2 | ✅ Muestra conductores disponibles, crea el viaje, redirige al detalle |
-| 4 | Detalle de viaje (pasajero) | 4 | ✅ Estado, conductor asignado o "buscando conductor...", form de calificación, polling cada 4s |
-| 5 | Dashboard conductor | 4 | ✅ Rating propio, viajes pendientes con botón Aceptar, viaje activo destacado |
-| 6 | Detalle de viaje (conductor) | 2 | ✅ Datos del pasajero, botón Completar, resumen tras completar |
-| 7 | Historial | 2 | ✅ Tabla con filtro por estado, según rol |
-| **Total** | | **20/20** | **Todos los endpoints requeridos están cubiertos y probados con build limpio (`tsc` + `vite build` sin errores)** |
-
