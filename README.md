@@ -1,4 +1,4 @@
-# Frontend Uber Clone — Guía rápida
+# Frontend Uber
 
 ## Cómo levantarlo
 
